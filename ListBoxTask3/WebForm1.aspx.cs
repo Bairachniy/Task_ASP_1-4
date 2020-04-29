@@ -19,8 +19,8 @@ namespace ListBoxTask3
 
             ArrayList tmp = new ArrayList();
 
-            lblTitle.Text = "<h1 style='color: #FF0000'>ListBox Example "
-           + "Add Editing Delete</h1>";
+            lblTitle.Text = "<h1>ListBox: "
+           + "Add, Edit, Delete</h1>";
 
             object objCount = ViewState["count"];
             object objTmp = ViewState["arrTmp"];

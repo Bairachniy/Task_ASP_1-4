@@ -9,16 +9,16 @@
 <body>
     
     <form id="form1" runat="server">
-        <div>
-             <table border="0">
+        <div style:"width:50%">
+             <table border="0" >
             <tr >
-                <td colspan="2" style="text-align: center; color: red; width:150%; height: 50px; font-size:22px" >
+                <td colspan="2" style="text-align: center; color: darkblue; width:150%; height: 50px; font-size:22px" >
                     <asp:Label ID="lblTitle" runat="server" Text="" ></asp:Label>
                 </td>                
             </tr>
             <tr>
-                <td colspan="2" style="text-align: center;  width:100%; height: auto; font-size:32px; background-color:azure">
-                     <asp:ListBox ID="ListBox1" runat="server" SelectionMode="Multiple">                       
+                <td colspan="2" style="text-align: center;  width:100px; height: auto; font-size:32px; background-color:azure">
+                     <asp:ListBox style="text-align: center;  width:200px;" ID="ListBox1" runat="server" SelectionMode="Multiple">                       
                     </asp:ListBox>
                      <br />
                 </td> 
